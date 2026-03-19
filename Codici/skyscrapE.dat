@@ -1,0 +1,17 @@
+set M := March April May June July August;
+
+
+param first_month := March;
+param c_arrive := 100;
+param c_leave := 160;
+param c_staffing := 200;
+
+param h_init := 3;
+
+param demand :=
+March 4
+April 6
+May 7
+June 4
+July 6
+August 2;

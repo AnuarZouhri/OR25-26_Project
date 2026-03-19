@@ -1,0 +1,11 @@
+reset;
+
+option solver cplex;
+
+model skyscrapE.mod;
+data skyscrapE.dat;
+
+
+solve;
+
+display f, x, y, h, o, u;
